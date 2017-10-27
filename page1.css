@@ -8,7 +8,9 @@ body
 	width: 1500px;
 	margin-left: auto;
 	margin-right: auto;
-}
+	z-index: 67%;
+} /* This the the body formatting in the CSS*/
+
 div
 {
 	border: 10px solid black;
@@ -16,7 +18,9 @@ div
     padding: 50px 30px 50px 80px;
 	margin-left: auto;
 	margin-right: auto;
-}
+	margin-top: 1300px;
+} /* This is where I format the black background that is ontop of the grassy background.*/
+
 ul
 { 
 	border-style: solid;
@@ -26,6 +30,7 @@ ul
 	background-color: #ffffff;
 	font-size: 30px;
 }
+
 ul li
 {
 	list-style-type: none;
@@ -33,6 +38,7 @@ ul li
 	margin-right: 0.5em;
 	margin-left: 0.5em;
 }
+
 h1
 {
 	color: #e60000;
@@ -45,45 +51,70 @@ h1
                  0px 24px 2px rgba(0,0,0,0.1),
                  0px 34px 30px rgba(0,0,0,0.1);
 }
+
 p
 {
 	text-indent: 50px;
 	color: #ffffff;
 	font-size: 30px;
+	text-align:justify;
 }	
+
 #img01
 {
 	margin: 10px;
+	padding-left: 10px;
 	float: right;
 	width: 300px; 
-	height: 400px;"
+	height: 400px;
 }
+
 #img02
 {
 	margin: 10px;
 	float: left; 
 	width: 420px; 
-	height: 280px;"
+	height: 280px;
+	padding-right: 10px;
 }
+
 #img03
 {
-	margin: 10px;
 	float: left; 
 	width: 220px; 
-height: 300px;"
+	height: 300px;
+	padding-right: 15px;
 }
+
 #img04
 {
 	float: right; 
-	width: 180px; 
-	height: 280px;
+	width: 170px; 
+	height: 240px;
+	padding-left: 15px;
 }
-border 
+
+#img05
 {
-  color: black;
+	position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+	width: 100%; 
+	height: 1100px;
 }
-pre
+
+
+#a01
 {
-	color: white;
-	font-family: serif;
+	color: pink;
+	font-size: 14;
+	text-align: right;
+	float: right;
+}
+
+#a02
+{
+	color: pink;
+	font-size: 14;
 }

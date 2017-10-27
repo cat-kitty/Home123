@@ -18,7 +18,6 @@ div
     padding: 50px 30px 50px 80px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1400px;
 } /* This is where I format the black background that is ontop of the grassy background.*/
 
 ul
@@ -39,65 +38,35 @@ ul li
 	margin-left: 0.5em;
 } /*This is where I made the links show up with spaces, and a border around them.*/
 
-h1
-{
-	color: #e60000;
-	font-size: 70px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 5em;
-	text-shadow: 0px 3px 0px #0020C2,
-                 0px 14px 10px rgba(0,0,0,0.15),
-                 0px 24px 2px rgba(0,0,0,0.1),
-                 0px 34px 30px rgba(0,0,0,0.1);
-}/*Here I formatted the word Soccer, so that it had colors and text shadows.*/
-
 p
 {
 	text-indent: 50px;
 	color: #ffffff;
 	font-size: 30px;
-	text-align:justify; 
+	text-align: center; 
 }/*Here I formatted all the paragraphs*/
 
-#img01.center
+a
 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1200px;
-	height: 800px;
-} /*Here I formatted the picture, and I made sure it was centered with, margin-left and margin-right. Also to make sure something centers, I must have the display: block element.*/
-
-#img02
-{
-	display: block;
-	float: right;
-	width: 280px; 
-	height: 380px;
-	padding-left: 50px;
-}
-
-#img03
-{
-	position:absolute;
-    left:0px;
-    top:0px;
-    z-index:-1;
-	width: 100%; 
-	height: 1200px;
+	color: #96416a;
 }
 
 #a01
 {
-	color: pink;
-	font-size: 14;
-	text-align: right;
-	float: right;
+	color: blue;
 }
 
 #a02
 {
-	color: pink;
-	font-size: 14;
+	color: blue;
+}
+
+#a03
+{
+	color: blue;
+}
+
+#a04
+{
+	color: blue;
 }

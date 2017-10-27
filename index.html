@@ -1,24 +1,29 @@
 <!doctype html>
-<html>
-	<head>
+<html lang="en-CA">
+	<head> <!--Please open tab in Firefox, and view all tabs at 70% for the best quality-->
 		<meta charset="UTF-8">
 		<link href="index.css" rel="stylesheet" type="text/css">
-		<link rel="icon" type="image/png" href="images/SoccerIcon.png">
+		<link rel="icon" type="image/png" href="images/SoccerIcon.png"> <!--Here I insterted an icon, so theres a small soccerball in the top, beside the word soccer, on the tab when you open the page.-->
 		<title> Soccer </title>
 	</head>
 	<body>
-		<div id="div01">
-			<ul class="menu">
-				<li>Home</li>
-				<li><a href="page1.html">History</a></li>
-				<li><a href="page2.html">FIFA World Cup</a></li>
-				<li><a href="page3.html">Players</a></li>
+	<img id="img03" src="images/SoccerBar.jpg" alt="Soccer Field">
+		<div> <!--This is a block element used to group block-elements and then format them with CSS.-->
+			<ul> <!--This was first a list of links and then in CSS I formated it so that it showed up horizontally, and now it is the white bar with links at the top of the rest of the words.-->
+				<li>Home</li> <!--This page does not have a link because you are currently viewing it-->
+				<li><a href="page1.html">History</a></li> <!--These link the rest of my HTML documents to this one page-->
+				<li><a href="page2.html">FIFA World Cup</a></li> <!--These link the rest of my HTML documents to this one page-->
+				<li><a href="page3.html">Players</a></li> <!--These link the rest of my HTML documents to this one page-->
+				<li><a href="references.html">References</a></li> <!--These link the rest of my HTML documents to this one page-->
 			</ul>
 			<h1> SOCCER </h1>
-			<p> Soccer is one of the most popular sports in Europe&#44; Brazil&#44; and Mexico. It is a fast–paced&#44; strategy game played by people of all ages&#44; men&#44; women&#44; and kids. Its professional leagues have gained millions of fans around the world. Soccer is also considered as a major sport that is well-known and widely played in almost all regions of the world. </p>
-			<img id="img01" src="images/Map.jpg" alt="World map on soccer ball" class="center">
-			<p> <img id="img02" src="images/SoccerPositions.gif" alt="Soccer Positions">  The game is played by two teams&#44; with eleven people on each team (including the goalie). The goal of the game is to kick&#44; or head the ball into the net&#44; touching the ball with your hand or arms is not allowed (unless it was an accident). This is a sport that requires teamwork with your team. </p>
-			<p> <img id="img03" src="images/download.jpg" alt="Soccer Ball"> A professional soccer game is 90 minutes long. It is split into two halves&#44; 45-minute games and there is a break in between (usually around 15 minutes). The referee can add any additional minutes of play because of stoppages and injuries in between the game. </p>
+			<a id="a01" href="#img02">Go to the Bottom</a> <!--Here I have linked the lowest id (img03) so when you press on the link, it brings you to the bottom of the page.-->
+			<br> <!--I left a break because if I didn't, the link and the paragraph would collide with each other.-->
+			<p> Soccer or what other people also call football&#44; is one of the most popular sports in Europe&#44; Brazil&#44; and Mexico. It is a fast&#45;paced&#44; strategy game played by people of all ages&#44; men&#44; women&#44; and kids. Its professional leagues have gained millions of fans around the world. Soccer is also considered as a major sport that is well&#45;known and widely played in almost all regions of the world. </p>
+			<img id="img01" src="images/WorldMap.gif" alt="World map about soccer" class="center" title="In red I have drawn circles or boxes around the main dominant countries in soccer"/>
+			<p> <img id="img02" src="images/SoccerPositions.gif" alt="Soccer Positions" title="Here you can see two teams, one red the other white, usually there are 3 attackers, 3 midfielders, 4 defenders and a goalie. But that is not always the case, sometimes, there are more attackers, or more midfielders but there must only be 11 players."/>The game is played by two teams&#44; with eleven people on each team &#40;including the goalie&#41;. The goal of the game is to kick&#44; or head the ball into the net&#44; touching the ball with your hand or arms is not allowed &#40;unless it was an accident&#41;. This is a sport that requires teamwork with your team. </p>
+			<p> A professional soccer game is 90 minutes long. It is split into two halves&#44; 45&#45;minute games and there is a break in between &#40;usually around 15 minutes&#41;. The referee can add any additional minutes of play because of stoppages and injuries in between the game. </p>  
+		<a id="a02" href="#img03">Back to the Top</a> <!--Here I have linked the upermost id(img04), so when you press on the link, it brings you to the top of the page.-->
 		</div>
 	</body>
 </html>

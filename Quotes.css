@@ -1,0 +1,14 @@
+body
+{
+	color: black;
+} /*This is a very basic CSS page.*/
+
+h1.center
+{
+	text-align:center;
+}
+
+h3
+{
+	text-indent: 50px;
+}

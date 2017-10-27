@@ -17,7 +17,31 @@ div
     padding: 50px 30px 50px 80px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 1400px;
 } /* This is where I format the black background that is ontop of the grassy background*/
+
+#ul01
+{ 
+	border-style: solid;
+	border-width: 1px;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	background-color: #ffffff;
+	font-size: 30px;
+}
+
+h1
+{
+	color: #e60000;
+	font-size: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 5em;
+	text-shadow: 0px 3px 0px #0020C2,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+}
 
 ul.center
 { 
@@ -26,7 +50,7 @@ ul.center
 	padding: 0.5em;
 	border-radius: 0.5em;
 	background-color: #ffffff;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 ul #li01
@@ -60,6 +84,15 @@ ul #li04
 	margin-right: 0.5em;
 	margin-left: 0.5em;
 }
+
+ul #li37
+{
+	list-style-type: none;
+	display: inline;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
 h16
 {
 	color: #e60000;
@@ -105,6 +138,7 @@ h16
 	float: right; 
 	width: 400px; 
 	height: 300px;
+	padding-left: 15px;
 }
 #img06
 {	
@@ -115,9 +149,19 @@ h16
 }
 #img07
 {
-	 float: right; 
-	 width: 270px; 
-	 height: 400px;
+	float: right; 
+	width: 270px; 
+	height: 400px;
+	padding-left: 15px;
+}
+#img08
+{
+	position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+	width: 100%; 
+	height: 1200px;
 }
 p
 {
@@ -455,4 +499,16 @@ border
 #a01
 {
 	color: white;
+}
+#a02
+{
+	color: pink;
+	font-size: 14;
+	text-align: right;
+	float: right;
+}
+#a03
+{
+	color: pink;
+	font-size: 14;
 }
